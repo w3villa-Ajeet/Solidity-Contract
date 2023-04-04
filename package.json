@@ -1,0 +1,26 @@
+{
+  "name": "myfirstcontract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-dev": "npx hardhat test",
+    "test": "npx hardhat test --network sepolia",
+    "compile": "npx hardhat compile",
+    "deploy-dev": "npx hardhat deploy",
+    "deploy-test": "npx hardhat deploy --network sepolia"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "@openzeppelin/contracts": "^4.8.2",
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.3",
+    "ethers": "^6.2.3",
+    "hardhat": "^2.13.0",
+    "hardhat-deploy": "^0.11.25",
+    "mocha": "^10.2.0"
+  }
+}
